@@ -98,6 +98,13 @@ python manage.py runserver
 - Delete Expense (DELETE) : http://localhost:8000/api/expenses/{id}/
 
 
+
+## Swagger Documentation
+
+You can access the Swagger documentation at http://localhost:8000/swagger/
+
+
+
 ## Sample Create Request
 
 ```json
