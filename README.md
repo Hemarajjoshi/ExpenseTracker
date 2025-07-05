@@ -27,7 +27,7 @@ A Restful API for tracking personal expenses and incomes , built using django re
 i. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/expense_tracker.git
+git clone https://github.com/Hemarajjoshi/ExpenseTracker.git
 cd expensetracker
 ```
 
