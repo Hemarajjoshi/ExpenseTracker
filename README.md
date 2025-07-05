@@ -28,7 +28,7 @@ i. Clone the repository
 
 ```bash
 git clone https://github.com/Hemarajjoshi/ExpenseTracker.git
-cd expensetracker
+cd ExpenseTracker
 ```
 
 ii. Create a virtual environment and activate it
