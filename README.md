@@ -92,10 +92,10 @@ python manage.py runserver
 - Token Refresh : http://localhost:8000/api/auth/refresh/
 
 ### Expense
-- List Expense : http://localhost:8000/api/expense/
-- Create Expense : http://localhost:8000/api/expense/
-- Update Expense : http://localhost:8000/api/expense/{id}/
-- Delete Expense : http://localhost:8000/api/expense/{id}/
+- List Expense (GET): http://localhost:8000/api/expenses/
+- Create Expense (POST): http://localhost:8000/api/expenses/
+- Update Expense (PUT/PATCH) : http://localhost:8000/api/expenses/{id}/
+- Delete Expense (DELETE) : http://localhost:8000/api/expenses/{id}/
 
 
 ## Sample Create Request
