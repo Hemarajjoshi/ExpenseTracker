@@ -1,0 +1,14 @@
+#Python cache file
+__pycache__/
+
+
+#python migration file
+*/migrations/__pycache__/
+
+
+
+#Environemental Variable
+.env
+
+#database
+db.sqlite3
