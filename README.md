@@ -35,7 +35,8 @@ ii. Create a virtual environment and activate it
 
 ```bash 
 python -m venv venv
-source venv/bin/activate
+venv\Scripts\activate #for windows 
+source venv/bin/activate #for linux/mac
 ```
 
 iii. Install dependencies
@@ -44,32 +45,39 @@ iii. Install dependencies
 pip install -r requirements.txt
 ```
 
-iv. Run the development server
+iv. Create .env file and paste the following 
+
+```bash
+    DEBUG = True
+```
+
+
+v. Run the development server
 
 ```bash
 python manage.py runserver
 ```
 
-v. Make Migrations and Migrate
+vi. Make Migrations and Migrate
 
 ```bash
 python manage.py makemigrations
 python manage.py migrate
 ```
 
-vi. Create SuperUser
+vii. Create SuperUser
 
 ```bash
 python manage.py createsuperuser
 ```
 
-vii. Run Tests
+viii. Run Tests
 
 ```bash
 python manage.py test
 ```
 
-viii. Run Swagger
+ix. Run Swagger
 
 ```bash
 python manage.py runserver
