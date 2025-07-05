@@ -148,3 +148,9 @@ class ExpenseAPITestCase(TestCase):
             self.assertEqual(len(response.data), 2)
         
         self.assertEqual(response.status_code, status.HTTP_200_OK)
+
+
+
+'''
+As i am  a bit new to writing test code i take help from the AI. 
+'''

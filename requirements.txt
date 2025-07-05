@@ -1,5 +1,5 @@
 django
 djangorestframework
-djangorestfrmework-simplejwt
+djangorestframework-simplejwt
 drf-yasg
 
